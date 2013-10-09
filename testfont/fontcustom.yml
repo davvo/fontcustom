@@ -4,10 +4,13 @@
 #   `fontcustom help` or visit <http://fontcustom.com>.
 # ---------------------------------------------------------------------------- #
 
-font_name: Test-Font
-css_prefix: tf-icon-
-#preprocessor_path: ""
+font_name: testicon
+css_prefix: t-icon-
 no_hash: true 
+#font_name: fontcustom
+#css_prefix: icon-
+#preprocessor_path: ""
+#no_hash: false
 #debug: false
 #quiet: false
 
@@ -27,9 +30,10 @@ no_hash: true
 #  templates: app/assets/fonts/fontcustom/templates
 
 #output:
-#  fonts: font
-#  eniro-icon.css: font 
-#  eniro-icon.html: font
+#  fonts: app/assets/fonts
+#  css: app/assets/stylesheets
+#  preview: app/views/styleguide
+#  my-custom-template.yml: config
 
 
 # ---------------------------------------------------------------------------- #
@@ -40,4 +44,5 @@ no_hash: true
 #   Custom templates should be saved in the INPUT[:templates] directory.
 # ---------------------------------------------------------------------------- #
 
-templates: [ testfont.html, testfont.css, examples.html ]
+#templates: [ scss, preview, my-custom-template.yml ]
+templates: [ testicon.html, testicon.css, examples.html ]

@@ -1,10 +1,10 @@
 @font-face {
   font-family: "<%= @opts.font_name %>";
-  src: url("<%= @font_path %>.eot?v=1");
-  src: url("<%= @font_path %>.eot?#iefix&v=1") format("embedded-opentype"),
-       url("<%= @font_path %>.woff?v=1") format("woff"),
-       url("<%= @font_path %>.ttf?v=1") format("truetype"),
-       url("<%= @font_path %>.svg?v=1#<%= @opts.font_name %>") format("svg");
+  src: url("<%= @opts.font_name %>.eot?v=1");
+  src: url("<%= @opts.font_name %>.eot?#iefix&v=1") format("embedded-opentype"),
+       url("<%= @opts.font_name %>.woff?v=1") format("woff"),
+       url("<%= @opts.font_name %>.ttf?v=1") format("truetype"),
+       url("<%= @opts.font_name %>.svg?v=1#<%= @opts.font_name %>") format("svg");
   font-weight: normal;
   font-style: normal;
 }
